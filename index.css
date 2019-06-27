@@ -1,0 +1,52 @@
+html {
+    background: url(https://images.unsplash.com/photo-1479981280584-037818c1297d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    font-size: 10px;
+  }
+
+.body{
+    margin: 0;
+    padding: 0 ;
+    display: flex;
+    flex: 1;
+}
+
+.clock{
+      margin: 120px 0 0 500px;
+      width: 500px;
+      height: 500px;
+    }
+
+.clock-face{
+    padding: 10px 10px 10px 10px;
+    margin: 50px 0 0 50px;
+    border: 10px solid white;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    
+}
+
+.hand{
+    margin: 5%;
+    width: 50%;
+    position: relative;
+    transform-origin: 100%;
+    margin:200px 0 0 0;
+    border: 3px solid black;
+    transform: rotate(90deg);
+    transition: all 0.5s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, .0.58, 1);
+}
+
+.hr-hand{
+    
+}
+
+.min-hand{
+    top: -206px;
+}
+
+.sec-hand{
+    top: -412px;
+}
